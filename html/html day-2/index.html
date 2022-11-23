@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html interview questions day2</title>
+</head>
+<body>
+    <!--tags and element-->
+    <p>Tags are consist of opening and closing ag and if we give content inside the tag,it becomes an element.</p>
+    <!--explain br tags-->
+    <p>Br tag is self closing tag.The br tag stands for line break, its used to break a text and display it in webpage.</p>
+    <!--explain the how many types od list in html-->
+    <p>ordered list,unordered list and discription list.</p>
+    <ol type="I" reversed>
+        <li>mango</li>
+        <li>banana</li>
+        <li>apple</li>
+        <li>orange</li>
+    </ol>
+    <ul type="circle">
+        <li>mango</li>
+        <li>banana</li>
+        <li>apple</li>
+        <li>orange</li>
+    </ul>
+    <!--description list-->
+    <dl>
+        <dt>car</dt>
+        <dd>cas has four wheels</dd>
+        <dt>bike</dt>
+        <dd>kawasaki</dd>
+    </dl>
+    <!--semantic tags-->
+    <p>Semantic tag is the tag that tell about itself to the browser and developers.</p>
+    <p>examples:footers,headers,nav,form</p>
+    <a href="https://www.prepbytes.com/" target="_blank">Prepbytes</a>
+    <!--adding an image-->
+    <p>There are two ways of adding an image.they are relative path and absolute path</p>
+    <!--relative path-->
+    <img src="./ntr.jpg" alt="" width="100px">
+    <!--absolute path-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xsn47w6ttu0fESQjIcHnejzO-x40DKy-vQ&usqp=CAU" alt="" width="100px">
+    <!--table-->
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th colspan="2">Designation</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">sagar</td>
+                <td>front end developer</td>
+                <td>digital marketer</td>
+            </tr>
+            <tr>
+                
+                <td>back end developer</td>
+                <td>cloud developer</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="./index2.html">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="" placeholder="enter your name" required><br><br>
+        <label for="myemail">email</label>
+        <input type="email" name="email" id="myemail" value="" placeholder="enter your email id" required><br><br>
+        <label for="myage">Age</label>
+        <input type="number" name="age" id="myage" value="" placeholder="age" required>  <br><br>
+        <label for="contanct">contact number</label>   
+        <input type="tel" name="contact" id="contact" value="" placeholder="number" required><br><br>
+        <label for="course">course</label>
+        <input type="radio" name="course" id="course" value="MERN">MERN
+        <input type="radio" name="course" id="course" value="MEAN">MEAN
+        <BR></BR>
+        <label for="technology">technology:</label>
+        <input type="checkbox" name="technology" id="technology" value="HTML">HTML
+        <input type="checkbox" name="technology" id="technology" value="CSS">CSS
+        <input type="checkbox" name="technology" id="technology" value="REACT">REACT
+        <input type="checkbox" name="technology" id="technology" value="NODE">NODE
+        <input type="button" value="click me!"> 
+    </form>
+</body>
+</html>
