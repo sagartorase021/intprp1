@@ -1,0 +1,14 @@
+.animation{
+    width: 100px;
+    height: 100px;
+    animation:choka 3s infinite;
+}
+@keyframes choka{
+ 0%{
+    background-color:red;
+
+ }
+ 100%{
+    background-color: blue;
+ }
+}

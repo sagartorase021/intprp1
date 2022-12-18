@@ -1,0 +1,111 @@
+body{
+    background-image: url(./bg\ image.jpeg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+h1{
+    color: white;
+    position: absolute;
+    top:5%;
+    left:45%;
+}
+.button{
+    position: absolute;
+    top:50%;
+    left:47%;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+p{
+    align-items: center;
+    color: white;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.logo{
+    position:absolute;
+    top: 10%;
+    left:10%;
+}img{
+    height: 60px;
+    width: 60px;
+}
+.nav{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: auto;
+   grid-gap:50px;
+    position: absolute;
+    top: 10%;
+    right:10%;
+    
+}
+.ss{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap:5px;
+}
+@media (min-width:300px) and (max-width:600px){
+    .ss{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-gap:5px
+    }
+}
+.width{
+    height: 100px;
+    width: 100px;
+    transition-duration: 2s;
+    background-color: bisque;
+    position:absolute;
+    top:1000px;
+}
+.width:hover{
+    height:120px;
+    width:120px;
+}
+.round{
+    border-radius: 50%;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 1200px;
+}
+.sss{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.bo{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+.button1{
+    height: 20px;
+    width:100px;
+    background-color: burlywood;
+
+}
+@media (min-width:300px) and (max-width:600px){
+    .button1{
+        background-color: chartreuse;
+
+    }
+}
+@media (min-width:600px) and (max-width:900px){
+    .button1{
+        background-color: yellow;
+
+    }
+}
