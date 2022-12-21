@@ -1,0 +1,38 @@
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition-duration:width 2s;
+    transition-timing-function: linear;
+    
+}
+.transition:hover{
+    width: 5000px;
+
+}
+.transform{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+}
+.transform:hover{
+    transform: translateY(10px);
+    transform: rotate(30deg);
+}
+.grid div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+a:focus{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
